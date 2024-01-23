@@ -1,8 +1,12 @@
 # Detecting-Abnormal-Lenders-from-Lending-Club-loan-data
 I used machine learning, oversampling, and undersampling.
 
-# 필요한 모듈 및 데이터 가져오기 + 데이터 나눠서 읽기
+# Data
+All Lending Club loan data from kaggle
 
+(link: https://www.kaggle.com/datasets/wordsforthewise/lending-club?select=accepted_2007_to_2018Q4.csv.gz)
+
+# 필요한 모듈 및 데이터 가져오기 + 데이터 나눠서 읽기
 read_csv로 한꺼번에 얻으려고 시도했지만 데이터가 지나치게 많아서 구글코랩이 버티지 못했습니다. 따라서 데이터를 분할해서 read_csv 작업을 거쳤습니다. 조건은 다음과 같습니다.
 
 1. 날짜가 2015년에서 2016년까지인 데이터만 가져오기
